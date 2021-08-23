@@ -1,0 +1,120 @@
+.main-div {
+	width: 1024px;
+	margin: auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+/* ======One-Two-Three====== */
+.one-div{
+    height: 200px;
+    width: 200px;
+    background-color: #e17055;
+}
+.two-div {
+	height: 200px;
+	width: 200px;
+	background-color: #ff7675;
+	position: relative;
+	bottom: 170px;
+	left: 35px;
+}
+.three-div {
+	height: 200px;
+	width: 200px;
+	background-color: #74b9ff;
+	position: relative;
+	bottom: 342px;
+	left: 70px;
+}
+/* ======Four-Five-Six====== */
+.four-div {
+	height: 200px;
+	width: 200px;
+	background-color: #e17055;
+	position: relative;
+	bottom: 542px;
+	left: 278px;
+	display: inline-block;
+}
+.five-div {
+	height: 200px;
+	width: 200px;
+	background-color: #d63031;
+	position: relative;
+	bottom: 570px;
+	left: 110px;
+	display: inline-block;
+}
+.six-div {
+	height: 200px;
+	width: 200px;
+	background-color: #e84393;
+	position: relative;
+	bottom: 603px;
+	left: -57px;
+	display: inline-block;
+}
+/* ======Seven-Eight-Nine====== */
+.seven-div {
+	height: 200px;
+	width: 200px;
+	background-color: #55efc4;
+	position: relative;
+	bottom: 603px;
+	left: -52px;
+	display: inline-block;
+}
+.eight-div {
+	height: 200px;
+	width: 200px;
+	background-color: #00b894;
+	position: relative;
+	bottom: 575px;
+	left: -224px;
+	display: inline-block;
+}
+.nine-div {
+	height: 200px;
+	width: 200px;
+	background-color: #74b9ff;
+	position: relative;
+	bottom: 747px;
+	left: 627px;
+	display: inline-block;
+}
+/* ======Seven-Eight-Nine CSS End====== */
+/* ======Hover Effect CSS Start====== */
+.hover-div{
+    height: 400px;
+    width: 400px;
+    background-color: tomato;
+    margin: 20px auto;
+    position: relative;
+}
+.hover-effect{
+    position:absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    width: 0;
+    height:0;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.659);
+    visibility: hidden;
+    opacity: 0;
+
+
+}
+.hover-effect p{
+    margin-top: 170px;
+    font-size: 20px;
+}
+.hover-div:hover .hover-effect{
+    height: 100%;
+    width: 100%;
+    visibility: visible;
+    opacity: 1;
+    transition: .6s;
+    cursor:progress;
+}
+/* ======Hover Effect CSS End====== */
